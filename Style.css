@@ -1,0 +1,94 @@
+.container-big {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: "DM Serif Display";
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.low {
+    margin-top: 0;
+}
+
+.up {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 50px;
+    margin-right: 50px;
+    color: white;
+    box-shadow: 8px 8px 0 #CC5500;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C88141;
+}
+
+button:active {
+    transform: translate(8px, 8px);
+    box-shadow: none;
+}
+
+img {
+    height: 200px;
+}
+
+.result {
+    margin: 0;
+}
+
+.el {
+    color: red;
+}
+
+.em {
+    color: blue;
+}
+
+.e {
+    color: green;
+}
+
+.nt {
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+.al {
+    color: black;
+}
+
