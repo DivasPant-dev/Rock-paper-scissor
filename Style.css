@@ -92,3 +92,15 @@ img {
     color: black;
 }
 
+@media screen and (max-width: 450px) {
+    * {
+        max-width: 425px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
