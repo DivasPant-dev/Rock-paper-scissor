@@ -20,7 +20,7 @@ function onGame(playerChoice) {
                 break;
 
             case "scissor":
-                result = (computerChoice === "rock") ? "You WIN!" : "You Lost";
+                result = (computerChoice === "rock") ? "You Lost" : "You WIN!";
                 break;
         }
 
